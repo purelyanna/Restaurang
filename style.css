@@ -1,0 +1,78 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.main1 {
+    width: 100%;
+    background: url(miso2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.main2 {
+    width: 100%;
+    background: url(miso1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+nav {
+    background-color: rgb(104, 15, 15);
+    padding: 4%;
+    text-align: center;
+}
+
+.nav {
+padding: 3%;
+margin: 2%;
+background-color: white;
+border-radius: 8px;
+padding: 1%;
+
+}
+
+ul {
+text-align: center;
+padding: 2%;
+list-style: none;
+
+}
+
+.center {
+text-align: center;
+margin: 3%;
+padding: 2%;
+background-color: grey;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(104, 15, 15);
+  color: white;
+  text-align: center;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
